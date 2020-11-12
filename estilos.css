@@ -2,7 +2,7 @@
 {margin: 0; font-family:'Montserrat', 'Sanserif';}
 h2 {font-size: 24px;}
 h3 {font-family: 18px;font-weight: 400;}
-#inicio{height: 70vh; widows: 100%; background-image: url(./IMG/wall.jpg) ;background-size: cover;}
+#inicio{height: 70vh; widows: 100%; background-image: url(./IMG/inicio.jpg) ;background-size: cover;}
 .navegacion{height: 10vh; }
 .navItem{list-style: none;font-weight: 600;}
 .navItem a{color: #fff;}
