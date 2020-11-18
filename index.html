@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Ricardo Bocanegra</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/0d04c5a105.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <article id="Inicio">
-        <nav>
-            <ul>
-                <li><a href="#Sobre mi">Sobre mi</a></li>
-                <li><a href="#Proyectos">Proyectos</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
+        <nav class="navegacion">
+            <ul class="lista">
+                <li class="navItem"><a href="#Sobre mi">Sobre mi</a></li>
+                <li class="navItem"><a href="#Proyectos">Proyectos</a></li>
+                <li class="navItem"><a href="#Contacto">Contacto</a></li>
             </ul>
         </nav>
         <div id="Portada">
-            <img src="./IMG/personal.jpg" alt="personal">
+            <img src="./IMG/personal.jpg" alt="personal" width="200" height="270">
             <h2>Ricardo Bocanegra</h2>
             <h3>Desarrollador.</h3>
         </div>
@@ -30,29 +32,53 @@
             <h2>Proyectos</h2>
             <h3>Ultimos trabajos</h3>
         </div>
-        <div class="ProyectoTitulo*6">
-            <img src="/IMG/Portada.jpg" alt="Portada">
-            <img src="/IMG/wall.jpg" alt="wall">
-            <img src="/IMG/exito.jpg" alt="exito">
+        <div class="ProyectoTitulo">
+            <div class="caja">
+            <img src="IMG/Portada.jpg" alt="Portada" width="200" height="280">
+            <div class="capa">
+                <h2>ProyectoX</h2>
+                </div>
+            </div>
+         <div class="caja">
+            <img src="IMG/wall.jpg" alt="wall" width="200" height="280">
+            <div class="capa">
+                <h2>ProyectoY</h2>
+            </div>
+            <div class="caja">
+            <img src="IMG/exito.jpg" alt="exito" width="200" height="280">
+            <div class="capa">
+                <h2>ProyectoZ</h2>
+                 </div>
+            </div>
         </div>
     </article>
     <article id="Contacto">
-        <h2>Contacto</h2>
-        <h3>Escribeme, trabajemos juntos</h3>
+        <div class="ContactoTitulos">
+        <h2 class="ContactoTitulo">Contacto</h2>
+        <h3 class="ContactoSubtitulo">Escribeme, trabajemos juntos</h3>
+        </div>
         <form>
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" placeholder="Nombre">
-            <label for="email">E-mail</label>
-            <input type="email" id="email" placeholder="ejemplo@correo.com">
-            <label for="asunto">Asunto</label>
-            <input type="text" id="asunto" placeholder="Asunto">
-            <label for="mensaje">Mensaje</label>
-            <textarea name="mensaje" id="mensaje" cols="30" rows="1"></textarea>
-            <input type="submit" placeholder="Mensaje">
+            <div class="filaSuperior">
+                <input type="text" id="nombre" placeholder="Nombre">
+                <input type="email" id="email" placeholder="ejemplo@correo.com">
+                <input type="text" id="asunto" placeholder="Asunto">
+           </div>
+           <div class="filaInferior">
+                <textarea name="mensaje" id="mensaje" cols="30" rows="1" placeholder="Mensaje"></textarea>
+           </div>
+           <input id="btnEnviar" type="submit">
        </form>
     </article>
     <footer>
-        <p>©Copyright 2020<b>RicardoHACDX</b> Todos los derechos reservados.</p>
+        <div class="titulosFooter">
+            <h2>HACDX</h2>
+            <h3>Desarrollador</h3>
+       </div>
+       <div class="iconosFooter">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+       </div>
+    
     </footer>
 
 </body>
