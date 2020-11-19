@@ -8,7 +8,6 @@ h3 {font-family: 18px;font-weight: 400;}
     background-image: url(IMG/wall.jpg);
     background-size: cover;
 }
-/* Navegacion */
 .navegacion{
    height: 10vh; 
    display: flex;
@@ -61,7 +60,6 @@ h3 {font-family: 18px;font-weight: 400;}
     align-items: center;
     cursor: pointer;
 }
-/* Sobre Mi */
 #sobreMi{
     height: 30vh;
     background-color: #EC7063;
@@ -78,7 +76,6 @@ h3 {font-family: 18px;font-weight: 400;}
 #sobreMi h2{
     margin-bottom: 10px;
 }
-/* Proyectos */
 #proyectos{
     padding-top: 8%;
     text-align: center;
@@ -105,7 +102,6 @@ h3 {font-family: 18px;font-weight: 400;}
     width: 400px;
     cursor: pointer;
 }
-/* Proyectos Overly */
 .caja{
     width: 400px;
     height: auto;
@@ -135,7 +131,6 @@ h3 {font-family: 18px;font-weight: 400;}
     transform: scale(1);
     cursor: pointer;
 }
-/* Contacto */
 #contacto{
     margin-top: 8%;
     background-color: #455a64;
@@ -160,7 +155,6 @@ input, textarea{
     font-size: 18px;
     padding: 2px 4px 2px 6px;
 }
-/* Boton Enviar */
 #btnEnviar{
     border: 0;
     margin-top: 3%;
@@ -172,7 +166,6 @@ input, textarea{
     border-radius: 10px;
     cursor: pointer;
 }
-/* Footer */
 footer{
     background-color: #37474f;
     color: #fff;
@@ -186,5 +179,4 @@ footer{
     margin: 0 24px;
     color:#fff;
     font-size: 30px;
-}
 }
